@@ -195,9 +195,8 @@ a {
     text-align: center;
 }
 .about__desc {
-    margin-top: 22px;
     max-width: 467px;
-    margin: 0 auto;
+    margin: 22px auto 0;
 }
 .about__list {
     margin-top: 60px;
