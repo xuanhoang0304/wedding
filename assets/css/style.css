@@ -3,6 +3,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -97,6 +98,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s linear;
+}
+.home:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 /*==========================================Header==========================================*/
 .header {
