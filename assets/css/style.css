@@ -136,7 +136,7 @@ a {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.55;
-    transition: 0.3s ease-in;
+    transition: 0.5s linear;
 }
 .header__signUp:hover {
     background-color: var(--pmr-color);
@@ -175,7 +175,7 @@ a {
 .services__btn {
     margin-top: 30px;
     padding: 22px 26.5px;
-    transition: 0.3s ease-in;
+    transition: 0.5s linear;
 }
 .services__btn:hover {
     background-color: var(--pmr-color);
@@ -278,7 +278,7 @@ a {
 .event__btn {
     margin-top: 44px;
     padding: 22px 35px;
-    transition: 0.3s linear;
+    transition: 0.5s linear;
 }
 .event__btn:hover {
     color: #fff;
