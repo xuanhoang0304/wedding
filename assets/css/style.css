@@ -68,12 +68,11 @@ a {
     line-height: 1.55; /* 155.556% */
 }
 .aBtn {
-    --height: 70px;
     display: inline-block;
-    min-width: 174px;
-    height: var(--height);
-    line-height: var(--height);
-    text-align: center;
+    padding: 19px 52px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
     color: var(--pmr-color);
     background-color: #fff;
     border-radius: 10px;
@@ -136,13 +135,17 @@ a {
 .header__signUp {
     font-size: 1.8rem;
     font-weight: 600;
+    line-height: 1.55;
     transition: 0.3s ease-in;
 }
 .header__signUp:hover {
     background-color: var(--pmr-color);
     color: #fff;
+    font-size: 1.8rem;
+    line-height: 28px;
 }
-.header__nav-link:hover,.header__login:hover{
+.header__nav-link:hover,
+.header__login:hover {
     text-decoration: underline;
 }
 /*==========================================Services==========================================*/
@@ -171,9 +174,7 @@ a {
 }
 .services__btn {
     margin-top: 30px;
-    min-width: 234px;
-    font-size: 2rem;
-    font-weight: 600;
+    padding: 22px 26.5px;
     transition: 0.3s ease-in;
 }
 .services__btn:hover {
@@ -248,4 +249,48 @@ a {
 .about__item:hover::after {
     opacity: 1;
     visibility: visible;
+}
+/*==========================================Event==========================================*/
+.event {
+    padding: 80px 0;
+    height: 722px;
+}
+.event__wrap {
+    position: relative;
+}
+.event__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    width: 57%;
+    padding: 35px 0 35px 71px;
+    background-color: var(--pmr-color);
+    z-index: 2;
+}
+.event__title {
+    color: #fff;
+}
+.event__desc {
+    margin-top: 24px;
+    max-width: 534px;
+    color: #fff;
+}
+.event__btn {
+    margin-top: 44px;
+    padding: 22px 35px;
+    transition: 0.3s linear;
+}
+.event__btn:hover {
+    color: #fff;
+    background-color: var(--pmr-color);
+    border: 1px solid currentColor;
+}
+.event__media {
+    position: absolute;
+    flex-shrink: 0;
+    top: 51px;
+    left: 172px;
+    width: 85%;
+    z-index: 1;
 }
