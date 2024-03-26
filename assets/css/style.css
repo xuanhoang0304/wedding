@@ -136,6 +136,14 @@ a {
 .header__signUp {
     font-size: 1.8rem;
     font-weight: 600;
+    transition: 0.3s ease-in;
+}
+.header__signUp:hover {
+    background-color: var(--pmr-color);
+    color: #fff;
+}
+.header__nav-link:hover,.header__login:hover{
+    text-decoration: underline;
 }
 /*==========================================Services==========================================*/
 .services {
@@ -166,7 +174,7 @@ a {
     min-width: 234px;
     font-size: 2rem;
     font-weight: 600;
-    transition: 0.5s ease-in;
+    transition: 0.3s ease-in;
 }
 .services__btn:hover {
     background-color: var(--pmr-color);
